@@ -1,0 +1,132 @@
+body {
+    font-family: 'Ubuntu';font-size: 22px;
+    background: #93e4c1;
+    margin: 0;
+    color: #5c5470; 
+}
+#header{
+    background: #3baea0;
+    margin: 0;  
+    height: 100px;
+}
+    #logo{
+        width: 73%;
+        float: left;
+        height: 100px;
+    }
+    #faq{
+        width: 5%;
+        float:left;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 100px;
+    }
+    #main_page{
+        width: 10%;
+        float:left;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 30px;
+    }
+    #contact{
+        float: left;
+        width: 13%;
+        margin-right: 2px;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 20px;
+    }
+    #main{
+        float: none;
+    }
+    #img{
+        width: 100px;
+    }
+
+form{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 90px;
+    text-align: center;
+}
+    #oi,#email,#code{
+        font-size: 20px;
+        padding: 20px;
+    }
+    #oid,#m,#rcode{
+        font-size:30px;
+        text-align: center;
+        margin-top: 10px;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    p.title{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #formimg1{
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        width: 120px;
+    }
+    #access{
+        border: solid 1px black;
+        border-radius: 10px;
+        padding: 13px;
+        font-size: 25px;
+        background-color: #42b883;
+        cursor: pointer;
+    }
+    #access:hover{
+        background-color: #347474; 
+    }
+    #formimg2{
+        position: absolute;
+        top: 87%;
+        left: 85%;
+        width: 80px;
+    }
+    a{
+        text-decoration: none;
+        color: #5c5470;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    a.faqcontact{
+        text-decoration: underline;
+    }
+    
+    
+    
+    #thanks{
+        position: absolute;
+        top:30%;
+        left:10%;
+        text-align: center;
+}
+
+
+    p.faf {
+        font-size: 50px;
+    }
+    #faqq{
+        font-size: 20px;
+        text-align: center;
+    }
+    #question{
+        color: #165c64;
+        font-size: 25px;
+    }
+
+    #terms{
+        text-align: center;
+    }
+    p.mainterm{
+        font-size: 25px;
+    }
